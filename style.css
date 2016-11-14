@@ -1158,7 +1158,6 @@ img[class*="wp-image-"] {
 .attachment-full {
 	max-width: 12em;
 	float: left;
-	margin: 1em;
 	margin-top: 1em;
 	margin-right: 1em;
 	border-radius: 0.5em;

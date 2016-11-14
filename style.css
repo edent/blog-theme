@@ -97,7 +97,7 @@ body {
 	padding-bottom: 0.5em;
 	border: none;
 	/*font: normal 48px/normal "Warnes", Helvetica, sans-serif;*/
-	color: rgba(255,255,255,1);
+	color: rgba(255,255,255);
 	/*text-decoration: normal;*/
 	text-align: center;
 	/*text-overflow: clip;*/
@@ -799,7 +799,7 @@ a:active {
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
-	background: rgba(231,233,236,1);
+	background: rgb(231,233,236);
 	/*margin-left: -1em;*/
 	/*margin-right: -1em;*/
 	margin-bottom: 2em;
@@ -934,7 +934,7 @@ a:active {
 	margin: 0 auto;
 }
 .widget {
-	background: rgba(231,233,236,1);
+	background: rgb(231,233,236);
 	margin-left: -1em;
 	margin-right: -1em;
 	margin-bottom: 2em;
@@ -980,7 +980,7 @@ a:active {
 }
 
 .menu-bottom-nav-container {
-	background: rgba(0,0,0,1);
+	background: rgb(0,0,0);
 	margin-left: -1em;
 }
 
@@ -1008,7 +1008,7 @@ footer ul {
 
 .hentry, .page-content {
 	/*TODO*/
-	background: rgba(231,233,236,1);
+	background: rgb(231,233,236);
 	margin-left: -1em;
 	margin-right: -1em;
 	margin-bottom: 2em;

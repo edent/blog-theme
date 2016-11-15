@@ -21,6 +21,8 @@
 
 // https://dev.twitter.com/web/overview/widgets-webpage-properties
 ?>
+<? //	Fix Twitter's share count http://newsharecounts.com/ ?>
+<script type="text/javascript" src="//newsharecounts.s3-us-west-2.amazonaws.com/nsc.js"></script>
 <?php wp_head(); ?>
 </head>
 

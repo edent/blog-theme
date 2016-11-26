@@ -533,6 +533,7 @@ hr.hr-top::after {
 ul,
 ol {
 	/*margin: 0 0 1.5em 3em;*/
+	list-style-position: inside;
 }
 
 ul {

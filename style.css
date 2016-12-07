@@ -107,7 +107,6 @@ body {
 	font-weight: bold;
 }
 .site-title a{
-	/*font-family: "tinyunicodemedium",monospace;*/
 	font-size: 2em;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -245,7 +244,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
+	font-family: monospace;
 	font-size: 1em;
 }
 
@@ -422,7 +421,6 @@ address {
 pre {
 	background: #090505;
 	color: #5bec5b;
-	font-family: "Courier 10 Pitch", Courier, monospace;
 	/*font-size: 15px;
 	font-size: 0.9375rem;*/
 	/*line-height: 1.6;*/
@@ -433,16 +431,6 @@ pre {
 	padding: 0.75em;
 	max-height: 30em;
 	box-shadow: .5em .5em 1em #000;
-}
-
-code,
-kbd,
-tt,
-var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	overflow-wrap: break-word;
-	/*font-size: 15px;
-	font-size: 0.9375rem;*/
 }
 
 abbr,

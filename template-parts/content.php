@@ -50,7 +50,8 @@
 				// ) );
 			else :
 				if ( has_post_thumbnail() ) {
-					the_post_thumbnail('full');
+					echo '<a href="' . esc_url( get_permalink() ) .'">'.get_the_post_thumbnail(get_the_ID(),'full').'</a>';
+					// the_post_thumbnail('full');
 				}
 				the_excerpt();
 			endif;

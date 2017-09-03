@@ -14,7 +14,7 @@
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'edent_simple' ); ?></h1>
 	</header><!-- .page-header -->
 
-	<div class="page-content">
+	<div class="hentry">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
@@ -24,7 +24,6 @@
 
 			<h2>Sorry, but nothing matched your search terms.</h2>
 			<?php
-				get_search_form();
 
 		else : ?>
 

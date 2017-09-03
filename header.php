@@ -17,10 +17,8 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<?php // Prevent Twitter from sending non-SSL content. See https://dev.twitter.com/web/overview/widgets-webpage-properties
-
-// https://dev.twitter.com/web/overview/widgets-webpage-properties
-?>
+<meta name="twitter:dnt" content="on">
+<meta name="twitter:widgets:csp" content="on">
 <?php wp_head(); ?>
 </head>
 

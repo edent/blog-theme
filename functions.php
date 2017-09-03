@@ -140,14 +140,17 @@ function edent_simple_scripts() {
 add_action( 'wp_enqueue_scripts', 'edent_simple_scripts' );
 
 function edent_byline() {
-	// $byline  = '<p class="byline entry-meta">';
+	$author = get_the_author();
 	$byline =    '<span class="posted-on">'.
-	                  '<time
-                        class="entry-date published"
+                    '<time
+                        class="entry-date published updated"
                         datetime="' . get_the_time('Y-m-d') . '" >' .
                         get_the_time(get_option('date_format')) .
                     '</time>'.
-                  '</span>';
+                  '</span> by ' .
+                  '<span class="vcard author">
+							<span class="fn">'. $author .'</span>
+						</span>';
 
 	$tags_list = get_the_tag_list( '#', esc_html__( ' #', 'edent_simple' ) );
 

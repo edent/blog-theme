@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
+<meta name="flattr:id" content="49zjz5">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <meta name="twitter:dnt" content="on">
 <meta name="twitter:widgets:csp" content="on">
